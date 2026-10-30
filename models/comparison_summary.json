@@ -1,0 +1,244 @@
+[
+  {
+    "model_name": "custom_cnn",
+    "parameters": 505584,
+    "test_accuracy": 0.3125,
+    "macro_precision": 0.21041492474916387,
+    "macro_recall": 0.3125,
+    "macro_f1": 0.20398635695822628,
+    "weighted_f1": 0.2039863569582263,
+    "latency_ms_per_sample": 70.46843320131302,
+    "classification_report": {
+      "Apple___Apple_scab": {
+        "precision": 0.2608695652173913,
+        "recall": 1.0,
+        "f1-score": 0.41379310344827586,
+        "support": 6.0
+      },
+      "Apple___Black_rot": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Apple___Cedar_apple_rust": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 6.0
+      },
+      "Apple___healthy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Corn___Common_rust": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Corn___Northern_Leaf_Blight": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Corn___healthy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Potato___Early_blight": {
+        "precision": 0.125,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.18181818181818182,
+        "support": 6.0
+      },
+      "Potato___Late_blight": {
+        "precision": 0.23076923076923078,
+        "recall": 0.5,
+        "f1-score": 0.3157894736842105,
+        "support": 6.0
+      },
+      "Potato___healthy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Tomato___Bacterial_spot": {
+        "precision": 1.0,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.2857142857142857,
+        "support": 6.0
+      },
+      "Tomato___Early_blight": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Tomato___Late_blight": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Tomato___Leaf_Mold": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "Tomato___Septoria_leaf_spot": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Tomato___healthy": {
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1-score": 0.4,
+        "support": 6.0
+      },
+      "accuracy": 0.3125,
+      "macro avg": {
+        "precision": 0.21041492474916387,
+        "recall": 0.3125,
+        "f1-score": 0.20398635695822628,
+        "support": 96.0
+      },
+      "weighted avg": {
+        "precision": 0.21041492474916387,
+        "recall": 0.3125,
+        "f1-score": 0.2039863569582263,
+        "support": 96.0
+      }
+    }
+  },
+  {
+    "model_name": "mobilenet_v2",
+    "parameters": 2888976,
+    "test_accuracy": 0.1875,
+    "macro_precision": 0.19837653288740248,
+    "macro_recall": 0.1875,
+    "macro_f1": 0.13561956671076453,
+    "weighted_f1": 0.13561956671076453,
+    "latency_ms_per_sample": 43.94207149744034,
+    "classification_report": {
+      "Apple___Apple_scab": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Apple___Black_rot": {
+        "precision": 0.08333333333333333,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.1111111111111111,
+        "support": 6.0
+      },
+      "Apple___Cedar_apple_rust": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Apple___healthy": {
+        "precision": 0.07692307692307693,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.10526315789473684,
+        "support": 6.0
+      },
+      "Corn___Common_rust": {
+        "precision": 0.3333333333333333,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.4444444444444444,
+        "support": 6.0
+      },
+      "Corn___Northern_Leaf_Blight": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Corn___healthy": {
+        "precision": 1.0,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.2857142857142857,
+        "support": 6.0
+      },
+      "Potato___Early_blight": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Potato___Late_blight": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Potato___healthy": {
+        "precision": 0.15,
+        "recall": 0.5,
+        "f1-score": 0.23076923076923078,
+        "support": 6.0
+      },
+      "Tomato___Bacterial_spot": {
+        "precision": 0.4,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.5,
+        "support": 6.0
+      },
+      "Tomato___Early_blight": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Tomato___Late_blight": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Tomato___Leaf_Mold": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "Tomato___Septoria_leaf_spot": {
+        "precision": 1.0,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.2857142857142857,
+        "support": 6.0
+      },
+      "Tomato___healthy": {
+        "precision": 0.13043478260869565,
+        "recall": 0.5,
+        "f1-score": 0.20689655172413793,
+        "support": 6.0
+      },
+      "accuracy": 0.1875,
+      "macro avg": {
+        "precision": 0.19837653288740248,
+        "recall": 0.1875,
+        "f1-score": 0.13561956671076453,
+        "support": 96.0
+      },
+      "weighted avg": {
+        "precision": 0.19837653288740245,
+        "recall": 0.1875,
+        "f1-score": 0.13561956671076453,
+        "support": 96.0
+      }
+    }
+  }
+]
